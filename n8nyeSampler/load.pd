@@ -1,0 +1,10 @@
+#N canvas 1 54 450 300 10;
+#X msg 154 71 open \$1;
+#X obj 154 47 openpanel;
+#X obj 102 102 bng 35 250 50 0 empty empty Load 5 15 0 10 -262144 -1
+-1;
+#X obj 214 134 outlet;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X coords 0 0 1 1 40 40 1 100 100;
